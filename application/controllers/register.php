@@ -7,7 +7,9 @@ class Register extends CI_Controller{
 	}
 
 	public function index(){
+		$this->load->view('header_view');
 		$this->load->view('register_view');
+		$this->load->view('footer_view');
 	}
 
 	public function adduser(){

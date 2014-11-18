@@ -1,0 +1,26 @@
+body {
+	background: #f1f1f1;
+}
+
+.register{
+	background: #fff;
+	padding: 40px 20px;
+	margin-top: 5%;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	box-shadow: 0 1px 3px rgba(0,0,0,.13);
+}
+
+.regbutton {
+	float:right;
+}
+
+p.error {
+	background: #fff;
+	padding: 10px 10px 10px 30px;
+	margin-top:3%;
+	border-left: 4px solid red;
+	font-size: 10px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
