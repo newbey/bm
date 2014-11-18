@@ -9,32 +9,36 @@
 </head>
 <body>
 <div class="container">
-	<?php echo validation_errors('<p class="error">');?>
-	<?php echo form_open("register/adduser");?>
-	<p>
-	<label for="username">Username:</label>
-	<input type="text" id="username" name="username" />
-	</p>
+	<div class="row">
+		<div class="col-md-4 col-md-offset-4">
+			<?php echo validation_errors('<p class="error">');?>
+			<?php echo form_open("register/adduser");?>
+			<div class="form-group">
+			<label for="username">Username:</label>
+			<input type="text" class="form-control"id="username" name="username" />
+			</div>
 
-	<p>
-	<label for="email">E-mail:</label>
-	<input type="text" id="email" name="email" />
-	</p>
+			<div class="form-group">
+			<label for="email">E-mail:</label>
+			<input type="text" class="form-control"id="email" name="email" />
+			</div>
 
-	<p>
-	<label for="password">Password:</label>
-	<input type="password" id="password" name="password" />
-	</p>
+			<div class="form-group">
+			<label for="password">Password:</label>
+			<input type="password" class="form-control"id="password" name="password" />
+			</div>
 
-	<p>
-	<label for="verifypassword">Re-type Password:</label>
-	<input type="password" id="verifypassword" name="verifypassword" />
-	</p>
+			<div class="form-group">
+			<label for="verifypassword">Re-type Password:</label>
+			<input type="password" class="form-control"id="verifypassword" name="verifypassword" />
+			</div>
 
-	<p>
-	<input type="submit" value="REGISTER">
-	</p>
-	<?php echo form_close();?>
+			<div class="form-group">
+			<input type="submit" class="btn btn-default" value="REGISTER">
+			</div>
+			<?php echo form_close();?>
+		</div>
+	</div>
 </div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
