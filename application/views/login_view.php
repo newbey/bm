@@ -15,7 +15,7 @@
 			</div>
 
 			<div class="form-group">
-			<input type="submit" class="btn btn-primary regbutton" value="REGISTER">
+			<input type="submit" class="btn btn-primary regbutton" value="LOGIN">
 			</div>
 			<?php echo form_close();?>
 		</div>
