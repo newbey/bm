@@ -40,4 +40,5 @@ p.error {
 .thumb{
   width:25px;
   height:25px;
+  border: 2px #f1f1f1 solid;
 }
