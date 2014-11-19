@@ -7,7 +7,8 @@ class Register extends CI_Controller{
 	}
 
 	public function index(){
-		$this->load->view('header_view');
+		$data['title']= 'Sign Up';
+		$this->load->view('header_view', $data);
 		$this->load->view('register_view');
 		$this->load->view('footer_view');
 	}
@@ -25,8 +26,15 @@ class Register extends CI_Controller{
 		}
 		else{
 			$this->register_model->register();
-			echo 'Success';
+			$this->success();
 		}
+	}
+
+	public function success(){
+		$data['title']= 'Successful Signup';
+		$this->load->view('header_view', $data);
+		$this->load->view('successful_view');
+		$this->load->view('footer_view');
 	}
 }
 ?>

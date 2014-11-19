@@ -24,3 +24,15 @@ p.error {
 	font-weight: 300;
 	text-transform: uppercase;
 }
+
+.topnav {
+	display:block;
+	background: #fff;
+	height: 70px;
+	padding: 20px 0;
+}
+
+.navigation{
+	display:block;
+	float:right;
+}
