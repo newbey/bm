@@ -7,5 +7,9 @@
 	<title><?php echo (isset($title)) ? $title : "BulkMark" ?> </title>
 	<link href="<?php echo base_url(); ?>css/bootstrap.min.css" rel="stylesheet">
 	<link href="<?php echo base_url(); ?>css/style.css" rel="stylesheet">
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="<?php echo base_url(); ?>js/resize.js"></script>
+
 </head>
 <body>

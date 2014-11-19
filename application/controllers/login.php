@@ -23,8 +23,9 @@ class Login extends CI_Controller{
 		}
 		else{
 			$this->login_model->login();
-			echo 'You are logged in';
-			var_dump($this->session->userdata('username'));
+			redirect('profile');
+			#echo 'You are logged in';
+			#var_dump($this->session->userdata('username'));
 		}
 	}
 }

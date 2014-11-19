@@ -36,3 +36,8 @@ p.error {
 	display:block;
 	float:right;
 }
+
+.thumb{
+  width:25px;
+  height:25px;
+}
