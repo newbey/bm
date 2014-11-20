@@ -28,8 +28,8 @@ p.error {
 .topnav {
 	display:block;
 	background: #fff;
-	height: 70px;
-	padding: 20px 0;
+	height: 90px;
+	padding: 30px 0;
 }
 
 .navigation{
@@ -40,12 +40,11 @@ p.error {
 .thumb{
   width:25px;
   height:25px;
-  border: 2px #f1f1f1 solid;
 }
 
 .profile_pic{
-  width:50px;
-  height:50px;
+  width:65px;
+  height:65px;
 }
 
 .wrapper{
@@ -55,7 +54,7 @@ p.error {
 .bio, .feed{
 	background: #fff;
 	border-radius: 5px;
-	padding: 20px;
+	padding: 40px;
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
 	box-shadow: 0 1px 2px rgba(0,0,0,.05);
 }
@@ -63,3 +62,43 @@ p.error {
 .minidash{
 	margin-top: 30px;
 }
+
+.stats{
+	background:#fefefe;
+	border: 1px solid #f7f7f7;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.stats > h2 {
+	color: #7d7d7d;
+	font-size:36px;
+	text-align: center;
+}
+
+.stats > p {
+	font-size:11px;
+	color: #a1a1a1;
+}
+
+.pubname{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.username{
+	font-size: 12px;
+	font-style: italic;
+	color:#969696;
+}
+
+.userbio{
+	font-size: 12px;
+	color: #969696;
+	padding-bottom: 8px;
+}
+
+.stat-label{
+	background: #fff;
+}
+
