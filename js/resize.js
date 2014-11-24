@@ -1,8 +1,8 @@
 $(function() {
-	CenterCropImage($('.cropcenterimg div'))
-	$(window).resize(function(){
-		CenterCropImage($('.cropcenterimg div'))
-	})
+    CenterCropImage($('.cropcenterimg li'))
+    $(window).resize(function(){
+        CenterCropImage($('.cropcenterimg li'))
+    })
 })
 
 /***CENTER CROP IMAGE***/

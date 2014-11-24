@@ -1,5 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 body {
-	background: #f1f1f1;
+	background: #E0E0E0;
 }
 
 .register{
@@ -28,7 +30,7 @@ p.error {
 .topnav {
 	display:block;
 	background: #fff;
-	height: 90px;
+	height: 110px;
 	padding: 30px 0;
 }
 
@@ -102,3 +104,102 @@ p.error {
 	background: #fff;
 }
 
+.suggest-btn {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 3px 0px #D35400;
+  -moz-box-shadow: 0px 3px 0px #D35400;
+  box-shadow: 0px 3px 0px #D35400;
+  color: #ffffff;
+  background: #E67E22 !important;
+  padding: 12px 30px 12px 30px !important;
+  text-decoration: none;
+  text-transform:uppercase;
+}
+
+.suggest-btn:hover {
+  color: #fff;
+  background: #D35400 !important;
+  text-decoration: none;
+}
+
+.suggest-btn:active {
+  color: #fff;
+  background: #D35400 !important;
+  text-decoration: none;
+}
+
+.sidebar{
+	background: #fff;
+	margin-top: 20px;
+	padding: 30px;
+}
+
+.places{
+	background: #fff;
+	margin-top: 20px;
+	padding: 30px;
+}
+
+.dumb{
+	width:550px;
+	height: 250px;
+	position: relative;
+}
+
+.place-name{
+	font-size:20px;
+	font-family:'Montserrat';
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.loc{
+	font-size:12px;
+	font-family: 'Roboto', serif;
+}
+
+.placetotravel{
+	margin-bottom:50px;
+}
+
+
+ul, li{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+img{
+display:block;
+  margin:0;
+}
+
+ul{
+  overflow:hidden;
+  display:block;
+  li{
+    display:block;
+    float:left;
+    margin-right:10px;
+    overflow:hidden;
+    text-align:center;
+    border:3px solid #ccc;
+  }
+}
+
+.resp{
+  li{
+  width:30%;
+  }
+}
+
+.placecover {
+    display: inline-block;
+    width: 100%;
+    height: 10%;
+    margin: 5px;
+    background-position: center center;
+    background-size: cover;
+}
